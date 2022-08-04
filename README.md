@@ -1,5 +1,7 @@
 # Star Wars (Vue 3, Composition API, TypeScript)
 
+https://mind315.github.io/study-vue-starwars/dist/index.html#/
+
 ## Project setup
 
 ```
