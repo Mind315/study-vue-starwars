@@ -1,0 +1,32 @@
+// Default table
+table {
+  width: 100%;
+  line-height: 1.5em;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  thead th {
+    padding: 20px 22px;
+    white-space: nowrap;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  thead tr {
+    color: #fff;
+  }
+  td {
+    padding: 15px;
+  }
+  tbody tr {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #c8dfff;
+    font-weight: 600;
+    transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
+    &:hover {
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      transform: translate(0, -3px);
+      transition-delay: 0s !important;
+    }
+  }
+}
